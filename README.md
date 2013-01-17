@@ -27,6 +27,14 @@ How it works ?
 * A third schema is used to looking for differences with a view recreated each time
     - An anonymous procedure use this view to make a should be understandable output
 
+How to read this project ?
+---
+
+I made multiple commit to explain how it's made
+* v0 : initial commit with bean
+* v1 : With the modified bean without the update.sql, the build fail
+* v2 : The update.sql is done, the build success
+
 Declaration of schemas
 ---
 
