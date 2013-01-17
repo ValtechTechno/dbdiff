@@ -1,0 +1,1 @@
+alter table bean add (value varchar2(255 char));
