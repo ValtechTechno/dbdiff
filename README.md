@@ -11,6 +11,8 @@ Typical use case
 ---
 
 We define our model with an ORM (hibernate/jpa in my case) and have to migrate the datas between each version we produce.
+In the case of hibernate, in hbm2ddl the update mode could be used, 
+except that is doesn't fully work as expected for us, and doesn't handle the migration of datas.
 
 How it works ?
 ---
